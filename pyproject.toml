@@ -11,7 +11,7 @@ python = "^3.12"
 unidecode = "^1.4.0"
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^8.0"
+pytest = "^9.0"
 ruff = "^0.4"
 mypy = "^1.0"
 pytest-cov = "^7.0.0"
