@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sb-utilities"
+version = "0.1.0"
+description = "Statbat Utilities"
+authors = ["Chris Peterson <chris.will.peterson@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "sb_utilities", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+unidecode = "^1.4.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0"
+ruff = "^0.4"
+mypy = "^1.0"
+pytest-cov = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
